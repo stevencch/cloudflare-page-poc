@@ -52,3 +52,9 @@ export default tseslint.config({
   },
 })
 ```
+
+## issue fix
+npm install --save-dev rollup
+npm install --save-dev @rollup/plugin-commonjs @rollup/plugin-node-resolve
+
+Executing user build command: rm -rf node_modules package-lock.json && npm install && npm run build
