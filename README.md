@@ -58,3 +58,17 @@ npm install --save-dev rollup
 npm install --save-dev @rollup/plugin-commonjs @rollup/plugin-node-resolve
 
 Executing user build command: rm -rf node_modules package-lock.json && npm install && npm run build
+
+
+## algoria 
+https://github.com/algolia/datasets
+npm uninstall react react-dom
+npm install react@18 react-dom@18
+
+npm uninstall @types/react @types/react-dom
+npm install @types/react@18 @types/react-dom@18 --save-dev
+
+npm install algoliasearch react-instantsearch-dom
+npm install instantsearch.css
+import 'instantsearch.css/themes/algolia-min.css';
+
